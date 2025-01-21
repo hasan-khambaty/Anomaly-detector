@@ -52,13 +52,21 @@ Step 1: Clone the Repository
 Clone the GitHub repository to your local machine:
 
 https://github.com/hasan-khambaty/Anomaly-detector/ 
+
 cd Anomaly-detector  
+
 Step 2: Set Up a Virtual Environment
+
 Create a Python virtual environment:
+
 python -m venv anomalyze_env  
+
 Activate the virtual environment:
+
 On Windows:
+
 .\anomalyze_env\Scripts\activate  
+
 On macOS/Linux:
 source anomalyze_env/bin/activate  
 Install the required packages:
