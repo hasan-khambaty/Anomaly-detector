@@ -70,10 +70,15 @@ On Windows:
 On macOS/Linux:
 source anomalyze_env/bin/activate  
 Install the required packages:
+
 pip install joblib lightgbm matplotlib numpy pandas seaborn scikit-learn streamlit 
+
 Step 3: Run the Application
+
 Start the Streamlit application:
+
 streamlit run app.py  
+
 This will open the application in your default web browser.
 
 Creating Your Own CSV Files
