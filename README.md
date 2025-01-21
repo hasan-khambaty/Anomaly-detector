@@ -50,6 +50,7 @@ Installation
 
 Step 1: Clone the Repository
 Clone the GitHub repository to your local machine:
+
 https://github.com/hasan-khambaty/Anomaly-detector/ 
 cd Anomaly-detector  
 Step 2: Set Up a Virtual Environment
