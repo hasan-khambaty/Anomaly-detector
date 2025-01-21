@@ -88,17 +88,24 @@ If you want to create your own CSV files for analysis:
 Capture Network Data:
 
 Use Wireshark to capture network traffic.
+
 Export the data as a CSV file using the "Make CSV" function in Wireshark.
+
 Label the Data:
+
 Use labeladder.py to add a column specifying whether the traffic is normal or malicious.
+
 Merge Multiple CSVs:
+
 Use mergecsv.py to combine all your labeled CSV files into a single dataset.
+
 Analyze the Data:
+
 Load the combined CSV file into the Anomalyze application and explore the visualizations and predictions.
+
 Accomplishments
 
 Minimized false negatives for high sensitivity to harmful activity.
-Leveraged tools like SHAP for feature-level insights.
 Achieved high accuracy, precision, recall, and F1 score for robust performance.
 Contributing
 
