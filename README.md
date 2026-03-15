@@ -1,5 +1,10 @@
 Anomalyze: Network Traffic Anomaly Detection Tool
 
+Project Overview
+
+Anomalyze is a machine learning-based anomaly detection system designed to identify malicious network activity from traffic data. The system analyzes network connections using 13 traffic features such as IP patterns, packet length distributions, protocols, and port numbers.
+Using a voting classifier combining LightGBM and Random Forest, the model learns patterns in both normal and malicious traffic and flags anomalous behavior. The project includes data collection, feature engineering, model training, evaluation, and a Streamlit interface for exploring predictions and visualizing network activity.
+
 Inspiration
 
 We have always been intrigued by how hackers bypass systems and gain unauthorized access. This curiosity inspired us to explore how cybersecurity professionals detect and classify malicious activities. Anomalyze was born out of this pursuit—a tool designed to identify malicious activity and distinguish it from normal network traffic. This project allowed us to uncover patterns, distributions, and intricate details involved in tracking attackers.
@@ -46,6 +51,15 @@ Pandas
 Seaborn
 SHAP
 Permutation-Importance
+
+Key Results
+
+Collected and analyzed 300,000+ network traffic records
+Built an ensemble model combining LightGBM and Random Forest
+Evaluated performance using accuracy, precision, recall, and F1 score
+Designed the system to prioritize minimizing false negatives, ensuring potentially malicious traffic is not missed
+Built an interactive Streamlit dashboard for traffic analysis and visualization
+
 Installation
 
 Step 1: Clone the Repository
